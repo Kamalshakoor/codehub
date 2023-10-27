@@ -1,0 +1,130 @@
+body {
+  font-family: sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* navbar css starts here */
+#contactsupport > a:link {
+  text-decoration: none;
+}
+#navbar {
+  /* padding: 20px; */
+  box-shadow: 0px 0px 15px 2px;
+}
+#navbar ul li > a:link {
+  font-size: 18px;
+  padding-left: 20px;
+}
+.dropdown-menu {
+  background-color: black;
+  width: 100%;
+}
+.dropdown-item {
+  color: white;
+}
+#userlogin {
+  margin-left: 5px;
+}
+
+#google_translate_element {
+  color: transparent;
+}
+#google_translate_element a {
+  display: none;
+}
+div.goog-te-gadget {
+  color: transparent !important;
+}
+
+/* navbar css ends here */
+
+/* main section css start here */
+
+#main {
+  background-image: linear-gradient(#dfa47d, #bc88d1);
+  padding-top: 10%;
+  padding-bottom: 7%;
+}
+#games_search {
+  height: 60px;
+}
+
+#html,
+#wordpress,
+#android,
+#ios,
+#unity {
+  border-radius: 10%;
+  transition: 1s;
+}
+#html:hover,
+#wordpress:hover,
+#android:hover,
+#ios:hover,
+#unity:hover {
+  border-radius: 5%;
+  margin-top: 5px;
+  transition: 1s;
+}
+/* main section css ends here */
+
+/* body section with all products start here */
+#seeallproducts {
+  text-decoration: none;
+  animation: blinker 0.9s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* body section with all products start here */
+
+/* subcription section starts from here */
+
+#subscribe {
+  background-color: #a5c7b6;
+}
+
+/* subcription section ends here */
+
+/* footer section starts here */
+#footer a {
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+}
+
+#request {
+  text-decoration: none;
+  font-size: 16px;
+  animation: blinker 0.9s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* footer section endss here */
+
+/* media queries for navbar */
+@media only screen and (max-width: 991px) {
+  #navbar ul li:hover {
+    background-color: lightgrey;
+  }
+  #userlogin {
+    margin-left: 0px;
+    margin-top: 1px;
+    width: 50%;
+  }
+  #seller {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #google_translate_element {
+    margin-top: -4%;
+  }
+}
